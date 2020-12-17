@@ -81,7 +81,8 @@ highlights:
   MatchParen: "blue - u"
   NonText: "special_grey"
   Pmenu: "white menu_grey"
-  PmenuSel: "black blue"
+
+  PmenuSel: "black purple"
   PmenuSbar: "- special_grey"
   PmenuThumb: "- white"
   Question: "purple"
