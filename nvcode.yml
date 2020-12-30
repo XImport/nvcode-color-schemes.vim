@@ -4,8 +4,8 @@ information:
   author: "Christian Chiarulli <chrisatmachine@gmail.com>"
 
 palette:
-  fg: "#ABB2BF"
-  bg: "#0f1012"
+  fg: "#f8f8f2"
+  bg: "#282a36"
 
   red: "#D16969"
   error_red: "#F44747"
