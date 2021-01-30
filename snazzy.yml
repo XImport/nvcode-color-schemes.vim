@@ -18,7 +18,7 @@ palette:
     cyan: "#9aedfe"
     white: "#f1f1f0"
     black: "#282a36"
-    line_grey: "#606580"
+    line_grey: "#9aedfe"
     gutter_fg_grey: "#4B5263"
     cursor_grey: "#3a3d4d"
     visual_grey: "#3f5263"
