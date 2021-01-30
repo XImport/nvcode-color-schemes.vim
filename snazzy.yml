@@ -37,7 +37,7 @@ highlights:
     Boolean: "blue"
     Float: "orange"
     Identifier: "blue"
-    Function: "yellow"
+    Function: "yellow - i "
     Statement: "pink - i"
     Conditional: "pink - i - i"
     Repeat: "pink - i"
