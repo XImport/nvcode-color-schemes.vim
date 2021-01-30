@@ -8,7 +8,7 @@ endif
 let g:colors_name='snazzy'
 
 hi Normal guifg=#eff0eb ctermfg=255 guibg=#000000 ctermbg=16 gui=NONE cterm=NONE
-hi Comment guifg=#9aedfe ctermfg=123 guibg=NONE ctermbg=NONE gui=italic cterm=italic
+hi Comment guifg=#4b5263 ctermfg=240 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi Constant guifg=#f3f99d ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi String guifg=#54d19b ctermfg=79 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi Character guifg=#54d19b ctermfg=79 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -27,7 +27,7 @@ hi Exception guifg=#ff6ac1 ctermfg=205 guibg=NONE ctermbg=NONE gui=italic cterm=
 hi PreProc guifg=#f3f99d ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Include guifg=#ff6ac1 ctermfg=205 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi Define guifg=#ff6ac1 ctermfg=205 guibg=NONE ctermbg=NONE gui=italic cterm=italic
-hi Title guifg=#ff8380 ctermfg=210 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Title guifg=#00ffff ctermfg=51 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Macro guifg=#ff6ac1 ctermfg=205 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi PreCondit guifg=#57c7ff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Type guifg=#57c7ff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -35,10 +35,10 @@ hi StorageClass guifg=#57c7ff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=
 hi Structure guifg=#f3f99d ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Typedef guifg=#f3f99d ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Special guifg=#57c7ff ctermfg=81 guibg=NONE ctermbg=NONE gui=italic cterm=italic
-hi SpecialComment guifg=#9aedfe ctermfg=123 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi SpecialComment guifg=#4b5263 ctermfg=240 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Error guifg=#ff8380 ctermfg=210 guibg=NONE ctermbg=NONE gui=bold,reverse cterm=bold,reverse
 hi Todo guifg=#ff6ac1 ctermfg=205 guibg=NONE ctermbg=NONE gui=italic cterm=italic guisp=NONE
-hi Underlined guifg=#ff8380 ctermfg=210 gui=underline cterm=underline
+hi Underlined guifg=#00ffff ctermfg=51 gui=underline cterm=underline
 hi Cursor guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=reverse cterm=reverse
 hi ColorColumn guifg=NONE ctermfg=NONE guibg=#3a3d4d ctermbg=238 gui=NONE cterm=NONE
 hi CursorLineNr guifg=#f1f1f0 ctermfg=255 guibg=NONE ctermbg=NONE gui=bold cterm=bold
@@ -53,14 +53,14 @@ hi DiffDelete guifg=#282a36 ctermfg=236 guibg=#ff5c57 ctermbg=203 gui=NONE cterm
 hi DiffText guifg=#282a36 ctermfg=236 guibg=#f3f99d ctermbg=229 gui=NONE cterm=NONE
 hi ErrorMsg guifg=#ff8380 ctermfg=210 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi VertSplit guifg=#181a1f ctermfg=234 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Folded guifg=#9aedfe ctermfg=123 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Folded guifg=#4b5263 ctermfg=240 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi FoldColumn guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi IncSearch guifg=#f3f99d ctermfg=229 guibg=#9aedfe ctermbg=123 gui=NONE cterm=NONE
+hi IncSearch guifg=#f3f99d ctermfg=229 guibg=#4b5263 ctermbg=240 gui=NONE cterm=NONE
 hi LineNr guifg=#4b5263 ctermfg=240 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi MatchParen guifg=#57c7ff ctermfg=81 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi NonText guifg=#3b4048 ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Pmenu guifg=#f1f1f0 ctermfg=255 guibg=#282c34 ctermbg=236 gui=NONE cterm=NONE
-hi PmenuSel guifg=#282a36 ctermfg=236 guibg=#57c7ff ctermbg=81 gui=NONE cterm=NONE
+hi PmenuSel guifg=#282a36 ctermfg=236 guibg=#ff5c57 ctermbg=203 gui=NONE cterm=NONE
 hi PmenuSbar guifg=NONE ctermfg=NONE guibg=#3b4048 ctermbg=238 gui=NONE cterm=NONE
 hi PmenuThumb guifg=NONE ctermfg=NONE guibg=#f1f1f0 ctermbg=255 gui=NONE cterm=NONE
 hi Question guifg=#ff6ac1 ctermfg=205 guibg=NONE ctermbg=NONE gui=italic cterm=italic
@@ -72,10 +72,10 @@ hi SpellCap guifg=#f3f99d ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NON
 hi SpellLocal guifg=#f3f99d ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SpellRare guifg=#f3f99d ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi StatusLine guifg=#f1f1f0 ctermfg=255 guibg=#3a3d4d ctermbg=238 gui=NONE cterm=NONE
-hi StatusLineNC guifg=#9aedfe ctermfg=123 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi StatusLineNC guifg=#4b5263 ctermfg=240 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi StatusLineTerm guifg=#f1f1f0 ctermfg=255 guibg=#3a3d4d ctermbg=238 gui=NONE cterm=NONE
 hi StatusLineTermNC guifg=#3a3d4d ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TabLine guifg=#9aedfe ctermfg=123 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TabLine guifg=#4b5263 ctermfg=240 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TabLineSel guifg=#f1f1f0 ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TabLineFill guifg=NONE ctermfg=NONE guibg=#000000 ctermbg=16 gui=NONE cterm=NONE
 hi Terminal guifg=#f1f1f0 ctermfg=255 guibg=#282a36 ctermbg=236 gui=NONE cterm=NONE
@@ -99,7 +99,7 @@ hi TSNumber guifg=#e07a31 ctermfg=173 guibg=NONE ctermbg=NONE gui=NONE cterm=NON
 hi TSBoolean guifg=#e07a31 ctermfg=173 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSFloat guifg=#54d19b ctermfg=79 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSAnnotation guifg=#f3f99d ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSAttribute guifg=#ff8380 ctermfg=210 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSAttribute guifg=#00ffff ctermfg=51 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSNamespace guifg=#ff6ac1 ctermfg=205 guibg=NONE ctermbg=NONE gui=italic cterm=italic guisp=NONE
 hi TSFuncBuiltin guifg=#57c7ff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSFunction guifg=#ff5c57 ctermfg=203 guibg=NONE ctermbg=NONE gui=italic cterm=italic
@@ -108,8 +108,8 @@ hi TSParameter guifg=#e07a31 ctermfg=173 guibg=NONE ctermbg=NONE gui=italic cter
 hi TSParameterReference guifg=#e07a31 ctermfg=173 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi TSMethod guifg=#57c7ff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSField guifg=#ff5c57 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSProperty guifg=#ff8380 ctermfg=210 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSConstructor guifg=#ff8380 ctermfg=210 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSProperty guifg=#00ffff ctermfg=51 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSConstructor guifg=#00ffff ctermfg=51 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSConditional guifg=#ff6ac1 ctermfg=205 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi TSRepeat guifg=#ff6ac1 ctermfg=205 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi TSLabel guifg=#57c7ff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -132,7 +132,7 @@ hi TSTitle guifg=#f3f99d ctermfg=229 guibg=NONE ctermbg=NONE gui=italic cterm=it
 hi TSLiteral guifg=#f3f99d ctermfg=229 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi TSURI guifg=#f3f99d ctermfg=229 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi TSTag guifg=#ff5c57 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSTagDelimiter guifg=#9aedfe ctermfg=123 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSTagDelimiter guifg=#4b5263 ctermfg=240 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlArg guifg=#f3f99d ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlBold guifg=#f3f99d ctermfg=229 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi htmlEndTag guifg=#f1f1f0 ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -143,14 +143,14 @@ hi htmlH4 guifg=#57c7ff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlH5 guifg=#57c7ff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlH6 guifg=#57c7ff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlItalic guifg=#ff6ac1 ctermfg=205 guibg=NONE ctermbg=NONE gui=italic cterm=italic guisp=NONE
-hi htmlLink guifg=#ff8380 ctermfg=210 guibg=NONE ctermbg=NONE gui=underline cterm=underline
+hi htmlLink guifg=#00ffff ctermfg=51 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi htmlSpecialChar guifg=#f3f99d ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlSpecialTagName guifg=#57c7ff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlTag guifg=#f1f1f0 ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlTagN guifg=#57c7ff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlTagName guifg=#57c7ff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlTitle guifg=#f1f1f0 ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi markdownBlockquote guifg=#9aedfe ctermfg=123 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi markdownBlockquote guifg=#4b5263 ctermfg=240 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownBold guifg=#f3f99d ctermfg=229 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi markdownCode guifg=#54d19b ctermfg=79 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownCodeBlock guifg=#54d19b ctermfg=79 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -162,7 +162,7 @@ hi markdownH4 guifg=#57c7ff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NO
 hi markdownH5 guifg=#57c7ff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownH6 guifg=#57c7ff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownHeadingDelimiter guifg=#ff5c57 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi markdownHeadingRule guifg=#9aedfe ctermfg=123 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi markdownHeadingRule guifg=#4b5263 ctermfg=240 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownId guifg=#ff6ac1 ctermfg=205 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi markdownIdDeclaration guifg=#57c7ff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownIdDelimiter guifg=#ff6ac1 ctermfg=205 guibg=NONE ctermbg=NONE gui=italic cterm=italic
@@ -171,19 +171,19 @@ hi markdownLinkDelimiter guifg=#ff6ac1 ctermfg=205 guibg=NONE ctermbg=NONE gui=i
 hi markdownLinkText guifg=#57c7ff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownListMarker guifg=#ff5c57 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownOrderedListMarker guifg=#ff5c57 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi markdownRule guifg=#9aedfe ctermfg=123 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi markdownUrl guifg=#ff8380 ctermfg=210 guibg=NONE ctermbg=NONE gui=underline cterm=underline
-hi CocExplorerIndentLine guifg=#9aedfe ctermfg=123 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi CocExplorerBufferRoot guifg=#ff8380 ctermfg=210 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi CocExplorerFileRoot guifg=#ff8380 ctermfg=210 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi CocExplorerBufferFullPath guifg=#9aedfe ctermfg=123 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi CocExplorerFileFullPath guifg=#9aedfe ctermfg=123 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi markdownRule guifg=#4b5263 ctermfg=240 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi markdownUrl guifg=#00ffff ctermfg=51 guibg=NONE ctermbg=NONE gui=underline cterm=underline
+hi CocExplorerIndentLine guifg=#4b5263 ctermfg=240 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi CocExplorerBufferRoot guifg=#00ffff ctermfg=51 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi CocExplorerFileRoot guifg=#00ffff ctermfg=51 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi CocExplorerBufferFullPath guifg=#4b5263 ctermfg=240 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi CocExplorerFileFullPath guifg=#4b5263 ctermfg=240 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CocExplorerBufferReadonly guifg=#ff6ac1 ctermfg=205 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi CocExplorerBufferModified guifg=#ff6ac1 ctermfg=205 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi CocExplorerBufferNameVisible guifg=#54d19b ctermfg=79 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CocExplorerFileReadonly guifg=#ff6ac1 ctermfg=205 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi CocExplorerFileModified guifg=#ff6ac1 ctermfg=205 guibg=NONE ctermbg=NONE gui=italic cterm=italic
-hi CocExplorerFileHidden guifg=#9aedfe ctermfg=123 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi CocExplorerFileHidden guifg=#4b5263 ctermfg=240 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CocExplorerHelpLine guifg=#ff6ac1 ctermfg=205 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi EasyMotionTarget guifg=#ff8380 ctermfg=210 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi EasyMotionTarget2First guifg=#ff8380 ctermfg=210 guibg=NONE ctermbg=NONE gui=bold cterm=bold
@@ -192,7 +192,7 @@ hi EasyMotionShade guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cter
 hi StartifyNumber guifg=#e07a31 ctermfg=173 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi StartifySelect guifg=#54d19b ctermfg=79 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi StartifyBracket guifg=#57c7ff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi StartifySpecial guifg=#ff8380 ctermfg=210 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi StartifySpecial guifg=#00ffff ctermfg=51 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi StartifyVar guifg=#57c7ff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi StartifyPath guifg=#57c7ff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi StartifyFile guifg=#f3f99d ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -210,5 +210,5 @@ hi diffFileId guifg=#57c7ff ctermfg=81 guibg=NONE ctermbg=NONE gui=bold,reverse 
 hi diffFile guifg=#3b4048 ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi diffNewFile guifg=#54d19b ctermfg=79 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi diffOldFile guifg=#ff5c57 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi debugPc guifg=NONE ctermfg=NONE guibg=#ff8380 ctermbg=210 gui=NONE cterm=NONE
+hi debugPc guifg=NONE ctermfg=NONE guibg=#00ffff ctermbg=51 gui=NONE cterm=NONE
 hi debugBreakpoint guifg=#ff5c57 ctermfg=203 guibg=NONE ctermbg=NONE gui=reverse cterm=reverse
