@@ -154,7 +154,7 @@ highlights:
     TSInclude: "pink - i"
     # Variable
     TSVariable: "white"
-    TSVariableBuiltin: "yellow"
+    TSVariableBuiltin: "orange - i"
     # Text
     TSText: "yellow - i"
     TSStrong: "yellow - i"
