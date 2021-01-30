@@ -27,7 +27,7 @@ hi Exception guifg=#ff6ac1 ctermfg=205 guibg=NONE ctermbg=NONE gui=italic cterm=
 hi PreProc guifg=#f3f99d ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Include guifg=#ff6ac1 ctermfg=205 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi Define guifg=#ff6ac1 ctermfg=205 guibg=NONE ctermbg=NONE gui=italic cterm=italic
-hi Title guifg=#9aedfe ctermfg=123 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Title guifg=#ff8380 ctermfg=210 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Macro guifg=#ff6ac1 ctermfg=205 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi PreCondit guifg=#57c7ff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Type guifg=#57c7ff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -38,7 +38,7 @@ hi Special guifg=#57c7ff ctermfg=81 guibg=NONE ctermbg=NONE gui=italic cterm=ita
 hi SpecialComment guifg=#9aedfe ctermfg=123 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Error guifg=#ff8380 ctermfg=210 guibg=NONE ctermbg=NONE gui=bold,reverse cterm=bold,reverse
 hi Todo guifg=#ff6ac1 ctermfg=205 guibg=NONE ctermbg=NONE gui=italic cterm=italic guisp=NONE
-hi Underlined guifg=#9aedfe ctermfg=123 gui=underline cterm=underline
+hi Underlined guifg=#ff8380 ctermfg=210 gui=underline cterm=underline
 hi Cursor guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=reverse cterm=reverse
 hi ColorColumn guifg=NONE ctermfg=NONE guibg=#3a3d4d ctermbg=238 gui=NONE cterm=NONE
 hi CursorLineNr guifg=#f1f1f0 ctermfg=255 guibg=NONE ctermbg=NONE gui=bold cterm=bold
@@ -99,7 +99,7 @@ hi TSNumber guifg=#e07a31 ctermfg=173 guibg=NONE ctermbg=NONE gui=NONE cterm=NON
 hi TSBoolean guifg=#e07a31 ctermfg=173 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSFloat guifg=#54d19b ctermfg=79 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSAnnotation guifg=#f3f99d ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSAttribute guifg=#9aedfe ctermfg=123 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSAttribute guifg=#ff8380 ctermfg=210 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSNamespace guifg=#ff6ac1 ctermfg=205 guibg=NONE ctermbg=NONE gui=italic cterm=italic guisp=NONE
 hi TSFuncBuiltin guifg=#57c7ff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSFunction guifg=#ff5c57 ctermfg=203 guibg=NONE ctermbg=NONE gui=italic cterm=italic
@@ -108,8 +108,8 @@ hi TSParameter guifg=#e07a31 ctermfg=173 guibg=NONE ctermbg=NONE gui=italic cter
 hi TSParameterReference guifg=#e07a31 ctermfg=173 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi TSMethod guifg=#57c7ff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSField guifg=#ff5c57 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSProperty guifg=#9aedfe ctermfg=123 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSConstructor guifg=#9aedfe ctermfg=123 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSProperty guifg=#ff8380 ctermfg=210 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSConstructor guifg=#ff8380 ctermfg=210 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSConditional guifg=#ff6ac1 ctermfg=205 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi TSRepeat guifg=#ff6ac1 ctermfg=205 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi TSLabel guifg=#57c7ff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -143,7 +143,7 @@ hi htmlH4 guifg=#57c7ff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlH5 guifg=#57c7ff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlH6 guifg=#57c7ff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlItalic guifg=#ff6ac1 ctermfg=205 guibg=NONE ctermbg=NONE gui=italic cterm=italic guisp=NONE
-hi htmlLink guifg=#9aedfe ctermfg=123 guibg=NONE ctermbg=NONE gui=underline cterm=underline
+hi htmlLink guifg=#ff8380 ctermfg=210 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi htmlSpecialChar guifg=#f3f99d ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlSpecialTagName guifg=#57c7ff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlTag guifg=#f1f1f0 ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -172,10 +172,10 @@ hi markdownLinkText guifg=#57c7ff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE ct
 hi markdownListMarker guifg=#ff5c57 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownOrderedListMarker guifg=#ff5c57 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownRule guifg=#9aedfe ctermfg=123 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi markdownUrl guifg=#9aedfe ctermfg=123 guibg=NONE ctermbg=NONE gui=underline cterm=underline
+hi markdownUrl guifg=#ff8380 ctermfg=210 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi CocExplorerIndentLine guifg=#9aedfe ctermfg=123 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi CocExplorerBufferRoot guifg=#9aedfe ctermfg=123 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi CocExplorerFileRoot guifg=#9aedfe ctermfg=123 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi CocExplorerBufferRoot guifg=#ff8380 ctermfg=210 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi CocExplorerFileRoot guifg=#ff8380 ctermfg=210 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CocExplorerBufferFullPath guifg=#9aedfe ctermfg=123 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CocExplorerFileFullPath guifg=#9aedfe ctermfg=123 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CocExplorerBufferReadonly guifg=#ff6ac1 ctermfg=205 guibg=NONE ctermbg=NONE gui=italic cterm=italic
@@ -192,7 +192,7 @@ hi EasyMotionShade guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cter
 hi StartifyNumber guifg=#e07a31 ctermfg=173 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi StartifySelect guifg=#54d19b ctermfg=79 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi StartifyBracket guifg=#57c7ff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi StartifySpecial guifg=#9aedfe ctermfg=123 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi StartifySpecial guifg=#ff8380 ctermfg=210 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi StartifyVar guifg=#57c7ff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi StartifyPath guifg=#57c7ff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi StartifyFile guifg=#f3f99d ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -210,5 +210,5 @@ hi diffFileId guifg=#57c7ff ctermfg=81 guibg=NONE ctermbg=NONE gui=bold,reverse 
 hi diffFile guifg=#3b4048 ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi diffNewFile guifg=#54d19b ctermfg=79 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi diffOldFile guifg=#ff5c57 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi debugPc guifg=NONE ctermfg=NONE guibg=#9aedfe ctermbg=123 gui=NONE cterm=NONE
+hi debugPc guifg=NONE ctermfg=NONE guibg=#ff8380 ctermbg=210 gui=NONE cterm=NONE
 hi debugBreakpoint guifg=#ff5c57 ctermfg=203 guibg=NONE ctermbg=NONE gui=reverse cterm=reverse
