@@ -5,11 +5,11 @@ information:
 
 palette:
     fg: "#eff0eb"
-    bg: "#1e2127"
+    bg: "#000000"
 
     red: "#ff5c57"
     error_red: "#ff8380"
-    green: "#5af78e"
+    green: "#54d19b"
     yellow: "#f3f99d"
     orange: "#fbffbd"
     blue: "#57c7ff"
@@ -129,7 +129,7 @@ highlights:
     TSNamespace: "#FF00FF"
     # Functions
     TSFuncBuiltin: "blue"
-    TSFunction: "blue"
+    TSFunction: "red"
     TSFuncMacro: "yellow"
     TSParameter: "cyan"
     TSParameterReference: "cyan"
