@@ -102,7 +102,7 @@ hi TSAnnotation guifg=#f3f99d ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm
 hi TSAttribute guifg=#9aedfe ctermfg=123 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSNamespace guifg=#ff00ff ctermfg=201 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSFuncBuiltin guifg=#57c7ff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSFunction guifg=#ff5c57 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSFunction guifg=#ff5c57 ctermfg=203 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi TSFuncMacro guifg=#f3f99d ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSParameter guifg=#9aedfe ctermfg=123 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSParameterReference guifg=#9aedfe ctermfg=123 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
