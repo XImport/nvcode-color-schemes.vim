@@ -144,13 +144,13 @@ highlights:
     TSLabel: "blue"
     # Does not work for yield and return they should be diff then class and def
     TSKeyword: "pink"
-    TSKeywordFunction: ""
+    TSKeywordFunction: "pink - i"
     TSKeywordOperator: "pink"
     TSOperator: "white"
     TSException: "pink"
     TSType: "yellow"
     TSTypeBuiltin: "blue"
-    TSStructure: "#FF00FF"
+    TSStructure: "pink - i"
     TSInclude: "pink"
     # Variable
     TSVariable: "white"

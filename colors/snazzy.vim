@@ -114,13 +114,13 @@ hi TSConditional guifg=#ff6ac1 ctermfg=205 guibg=NONE ctermbg=NONE gui=NONE cter
 hi TSRepeat guifg=#ff6ac1 ctermfg=205 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSLabel guifg=#57c7ff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSKeyword guifg=#ff6ac1 ctermfg=205 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSKeywordFunction guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSKeywordFunction guifg=#ff6ac1 ctermfg=205 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi TSKeywordOperator guifg=#ff6ac1 ctermfg=205 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSOperator guifg=#f1f1f0 ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSException guifg=#ff6ac1 ctermfg=205 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSType guifg=#f3f99d ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSTypeBuiltin guifg=#57c7ff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSStructure guifg=#ff00ff ctermfg=201 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSStructure guifg=#ff6ac1 ctermfg=205 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi TSInclude guifg=#ff6ac1 ctermfg=205 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSVariable guifg=#f1f1f0 ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSVariableBuiltin guifg=#f3f99d ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
