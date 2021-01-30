@@ -39,7 +39,7 @@ highlights:
     Identifier: "blue"
     Function: "yellow"
     Statement: "pink"
-    Conditional: "pink"
+    Conditional: "pink - i"
     Repeat: "pink"
     Label: "blue"
     Operator: "pink"
@@ -127,7 +127,7 @@ highlights:
     TSFloat: "green"
     TSAnnotation: "yellow"
     TSAttribute: "cyan"
-    TSNamespace: "#FF00FF"
+    TSNamespace: "pink - i"
     # Functions
     TSFuncBuiltin: "blue"
     TSFunction: "red - i"
@@ -144,7 +144,7 @@ highlights:
     TSLabel: "blue"
     # Does not work for yield and return they should be diff then class and def
     TSKeyword: "pink"
-    TSKeywordFunction: "#FF00FF"
+    TSKeywordFunction: ""
     TSKeywordOperator: "pink"
     TSOperator: "white"
     TSException: "pink"

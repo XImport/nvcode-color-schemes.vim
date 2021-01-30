@@ -18,7 +18,7 @@ hi Float guifg=#fbffbd ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Identifier guifg=#57c7ff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Function guifg=#f3f99d ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Statement guifg=#ff6ac1 ctermfg=205 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Conditional guifg=#ff6ac1 ctermfg=205 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Conditional guifg=#ff6ac1 ctermfg=205 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi Repeat guifg=#ff6ac1 ctermfg=205 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Label guifg=#57c7ff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Operator guifg=#ff6ac1 ctermfg=205 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -100,7 +100,7 @@ hi TSBoolean guifg=#fbffbd ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NO
 hi TSFloat guifg=#54d19b ctermfg=79 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSAnnotation guifg=#f3f99d ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSAttribute guifg=#9aedfe ctermfg=123 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSNamespace guifg=#ff00ff ctermfg=201 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSNamespace guifg=#ff6ac1 ctermfg=205 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi TSFuncBuiltin guifg=#57c7ff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSFunction guifg=#ff5c57 ctermfg=203 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi TSFuncMacro guifg=#f3f99d ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -114,7 +114,7 @@ hi TSConditional guifg=#ff6ac1 ctermfg=205 guibg=NONE ctermbg=NONE gui=NONE cter
 hi TSRepeat guifg=#ff6ac1 ctermfg=205 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSLabel guifg=#57c7ff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSKeyword guifg=#ff6ac1 ctermfg=205 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSKeywordFunction guifg=#ff00ff ctermfg=201 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSKeywordFunction guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSKeywordOperator guifg=#ff6ac1 ctermfg=205 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSOperator guifg=#f1f1f0 ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSException guifg=#ff6ac1 ctermfg=205 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
