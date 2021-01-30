@@ -60,7 +60,7 @@ hi LineNr guifg=#4b5263 ctermfg=240 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi MatchParen guifg=#57c7ff ctermfg=81 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi NonText guifg=#3b4048 ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Pmenu guifg=#f1f1f0 ctermfg=255 guibg=#161616 ctermbg=233 gui=NONE cterm=NONE
-hi PmenuSel guifg=#282a36 ctermfg=236 guibg=#ff5c57 ctermbg=203 gui=NONE cterm=NONE
+hi PmenuSel guifg=#282a36 ctermfg=236 guibg=#800080 ctermbg=90 gui=NONE cterm=NONE
 hi PmenuSbar guifg=NONE ctermfg=NONE guibg=#3b4048 ctermbg=238 gui=NONE cterm=NONE
 hi PmenuThumb guifg=NONE ctermfg=NONE guibg=#f1f1f0 ctermbg=255 gui=NONE cterm=NONE
 hi Question guifg=#ff6ac1 ctermfg=205 guibg=NONE ctermbg=NONE gui=italic cterm=italic
