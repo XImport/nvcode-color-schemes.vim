@@ -64,9 +64,9 @@ highlights:
 
     ColorColumn: "- bg"
     CursorLineNr: "white - b"
-    SignColumn: "- bg"
+    SignColumn: "white"
     Conceal: ""
-    CursorColumn: "- bg"
+    CursorColumn: "white"
     CursorLine: "- bg"
     Directory: "blue"
     DiffAdd: "black green"

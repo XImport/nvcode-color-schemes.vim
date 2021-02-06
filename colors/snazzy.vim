@@ -42,9 +42,9 @@ hi Underlined guifg=#00ffff ctermfg=51 gui=underline cterm=underline
 hi Cursor guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=reverse cterm=reverse
 hi ColorColumn guifg=NONE ctermfg=NONE guibg=#000000 ctermbg=16 gui=NONE cterm=NONE
 hi CursorLineNr guifg=#f1f1f0 ctermfg=255 guibg=NONE ctermbg=NONE gui=bold cterm=bold
-hi SignColumn guifg=NONE ctermfg=NONE guibg=#000000 ctermbg=16 gui=NONE cterm=NONE
+hi SignColumn guifg=#f1f1f0 ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Conceal guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi CursorColumn guifg=NONE ctermfg=NONE guibg=#000000 ctermbg=16 gui=NONE cterm=NONE
+hi CursorColumn guifg=#f1f1f0 ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CursorLine guifg=NONE ctermfg=NONE guibg=#000000 ctermbg=16 gui=NONE cterm=NONE
 hi Directory guifg=#57c7ff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiffAdd guifg=#282a36 ctermfg=236 guibg=#54d19b ctermbg=79 gui=NONE cterm=NONE
