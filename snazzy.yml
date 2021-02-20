@@ -67,7 +67,7 @@ highlights:
     SignColumn: "- bg"
     Conceal: "- cursor_grey"
     CursorColumn: "- cursor_grey"
-    CursorLine: "purple - u"
+    CursorLine: "purple "
     Directory: "blue"
     DiffAdd: "black green"
     DiffChange: "yellow - u"
