@@ -40,9 +40,9 @@ hi Error guifg=#ff8380 ctermfg=210 guibg=NONE ctermbg=NONE gui=bold,reverse cter
 hi Todo guifg=#ff6ac1 ctermfg=205 guibg=NONE ctermbg=NONE gui=italic cterm=italic guisp=NONE
 hi Underlined guifg=#00ffff ctermfg=51 gui=underline cterm=underline
 hi Cursor guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=reverse cterm=reverse
-hi ColorColumn guifg=#ff5c57 ctermfg=203 guibg=NONE ctermbg=NONE gui=underline cterm=underline
-hi CursorLineNr guifg=#ff5c57 ctermfg=203 guibg=NONE ctermbg=NONE gui=underline cterm=underline
-hi SignColumn guifg=#ff5c57 ctermfg=203 guibg=NONE ctermbg=NONE gui=underline cterm=underline
+hi ColorColumn guifg=NONE ctermfg=NONE guibg=#3a3d4d ctermbg=238 gui=NONE cterm=NONE
+hi CursorLineNr guifg=#b44ac7 ctermfg=134 guibg=NONE ctermbg=NONE gui=bold,italic cterm=bold,italic
+hi SignColumn guifg=NONE ctermfg=NONE guibg=#3a3d4d ctermbg=238 gui=NONE cterm=NONE
 hi Conceal guifg=NONE ctermfg=NONE guibg=#3a3d4d ctermbg=238 gui=NONE cterm=NONE
 hi CursorColumn guifg=NONE ctermfg=NONE guibg=#3a3d4d ctermbg=238 gui=NONE cterm=NONE
 hi CursorLine guifg=NONE ctermfg=NONE guibg=#0d0d0d ctermbg=233 gui=NONE cterm=NONE
