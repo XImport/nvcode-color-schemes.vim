@@ -63,11 +63,11 @@ highlights:
     Cursor: "- - r"
 
     ColorColumn: "- cursor_grey"    
-    CursorLineNr: "red"
+    CursorLineNr: "red - u"
     SignColumn: "- bg"
     Conceal: "- cursor_grey"
     CursorColumn: "- cursor_grey"
-    CursorLine: "purple - u"
+    CursorLine: "white"
     Directory: "blue"
     DiffAdd: "black green"
     DiffChange: "yellow - u"
