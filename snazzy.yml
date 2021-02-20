@@ -62,8 +62,8 @@ highlights:
     Underlined: "cyan . u"
     Cursor: "- - r"
 
-    ColorColumn: "- cursor_grey"
-    CursorLineNr: ""
+    ColorColumn: "- cursor_grey"    
+    CursorLineNr: "red"
     SignColumn: "- bg"
     Conceal: "- cursor_grey"
     CursorColumn: "- cursor_grey"
