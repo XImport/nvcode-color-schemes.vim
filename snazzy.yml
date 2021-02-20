@@ -65,7 +65,8 @@ highlights:
     ColorColumn: "bg"    
     CursorLineNr: "purple - b"
     SignColumn: "bg"
-    Conceal: "- cursor_grey"
+    
+    Conceal: "- purple"
     CursorColumn: "- cursor_grey"
     CursorLine: "- bg"
     Directory: "blue"
