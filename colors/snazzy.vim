@@ -7,7 +7,7 @@ if exists('syntax_on')
 endif
 let g:colors_name='snazzy'
 
-hi Normal guifg=#eff0eb ctermfg=255 guibg=#0d0d0d ctermbg=233 gui=NONE cterm=NONE
+hi Normal guifg=#eff0eb ctermfg=255 guibg=#0d192b ctermbg=234 gui=NONE cterm=NONE
 hi Comment guifg=#4b5263 ctermfg=240 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi Constant guifg=#f3f99d ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi String guifg=#54d19b ctermfg=79 guibg=NONE ctermbg=NONE gui=italic cterm=italic
@@ -40,12 +40,12 @@ hi Error guifg=#ff8380 ctermfg=210 guibg=NONE ctermbg=NONE gui=bold,reverse cter
 hi Todo guifg=#ff6ac1 ctermfg=205 guibg=NONE ctermbg=NONE gui=italic cterm=italic guisp=NONE
 hi Underlined guifg=#00ffff ctermfg=51 gui=underline cterm=underline
 hi Cursor guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=reverse cterm=reverse
-hi ColorColumn guifg=#0d0d0d ctermfg=233 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi ColorColumn guifg=#0d192b ctermfg=234 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CursorLineNr guifg=#b44ac7 ctermfg=134 guibg=NONE ctermbg=NONE gui=bold cterm=bold
-hi SignColumn guifg=#0d0d0d ctermfg=233 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi SignColumn guifg=#0d192b ctermfg=234 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Conceal guifg=NONE ctermfg=NONE guibg=#b44ac7 ctermbg=134 gui=NONE cterm=NONE
 hi CursorColumn guifg=NONE ctermfg=NONE guibg=#3a3d4d ctermbg=238 gui=NONE cterm=NONE
-hi CursorLine guifg=NONE ctermfg=NONE guibg=#0d0d0d ctermbg=233 gui=NONE cterm=NONE
+hi CursorLine guifg=NONE ctermfg=NONE guibg=#0d192b ctermbg=234 gui=NONE cterm=NONE
 hi Directory guifg=#57c7ff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiffAdd guifg=#282a36 ctermfg=236 guibg=#54d19b ctermbg=79 gui=NONE cterm=NONE
 hi DiffChange guifg=#f3f99d ctermfg=229 guibg=NONE ctermbg=NONE gui=underline cterm=underline
@@ -77,7 +77,7 @@ hi StatusLineTerm guifg=#f1f1f0 ctermfg=255 guibg=#3a3d4d ctermbg=238 gui=NONE c
 hi StatusLineTermNC guifg=#3a3d4d ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TabLine guifg=#4b5263 ctermfg=240 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TabLineSel guifg=#f1f1f0 ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TabLineFill guifg=NONE ctermfg=NONE guibg=#0d0d0d ctermbg=233 gui=NONE cterm=NONE
+hi TabLineFill guifg=NONE ctermfg=NONE guibg=#0d192b ctermbg=234 gui=NONE cterm=NONE
 hi Terminal guifg=#f1f1f0 ctermfg=255 guibg=#282a36 ctermbg=236 gui=NONE cterm=NONE
 hi Visual guifg=NONE ctermfg=NONE guibg=#3f5263 ctermbg=239 gui=NONE cterm=NONE
 hi VisualNOS guifg=#3f5263 ctermfg=239 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
