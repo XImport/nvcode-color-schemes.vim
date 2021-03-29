@@ -152,7 +152,7 @@ highlights:
   TSStructure: "purple - i"
   TSInclude: "pink"
   # Variable
-  TSVariable: "fg"
+  TSVariable: "#8BE9FD"
   TSVariableBuiltin: "purple - i"
   # Text
   TSText: "#FFFF00"
