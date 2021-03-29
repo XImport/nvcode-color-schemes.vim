@@ -118,7 +118,7 @@ highlights:
   # Not sure about this guy
   TSConstMacro: "cyan"
   TSStringRegex: "red"
-  TSString: "yellow"
+  TSString: "line_grey - i"
   TSStringEscape: "cyan"
   TSCharacter: "green"
   TSNumber: "purple"
