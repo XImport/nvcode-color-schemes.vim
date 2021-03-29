@@ -24,6 +24,10 @@ palette:
   menu_grey: "#282C34"
   special_grey: "#3B4048"
   vertsplit: "#181A1F"
+  grey_blue: "#729CB3"
+  warning_orange: "#ff8800"
+  info_yellow: "#FFCC66"
+  vivid_blue: "#4FC1FF"
 
 highlights:
   Normal: "fg bg"
@@ -268,6 +272,41 @@ highlights:
   # ToolbarButton: "suvagray - r"
   debugPc: "- cyan"
   debugBreakpoint: "red - r"
+
+
+
+
+
+
+
+# Git
+  GitSignsAdd: "#587C0C"
+  GitSignsChange: "#0C7D9D"
+  GitSignsDelete: "#94151B"
+  LspDiagnosticsUnderlineHint: "grey_blue"
+
+  LspDiagnosticsSignError: "error_red"
+  LspDiagnosticsSignWarning: "warning_orange"
+  LspDiagnosticsSignInformation: "info_yellow"
+  LspDiagnosticsSignHint: "vivid_blue"
+
+  LspDiagnosticsVirtualTextError: "error_red"
+  LspDiagnosticsVirtualTextWarning: "warning_orange"
+  LspDiagnosticsVirtualTextInformation: "info_yellow"
+  LspDiagnosticsVirtualTextHint: "vivid_blue"
+
+
+
+
+
+
+
+
+
+
+
+
+
   # terminal: "bg red green yellow blue magenta cyan silver gray red green yellow blue magenta cyan fg"
   # -- Other junk you can define --
   # Debug
