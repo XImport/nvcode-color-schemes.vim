@@ -130,11 +130,11 @@ highlights:
   # Functions
   TSFuncBuiltin: "cyan"
   TSFunction: "green"
-  TSFuncMacro: "green"
+  TSFuncMacro: "cyan - i"
   TSParameter: "orange"
   TSParameterReference: "orange"
   TSMethod: "green"
-  TSField: "orange"
+  TSField: "fg - i"
   TSProperty: "fg"
   TSConstructor: "cyan"
   # Keywords
