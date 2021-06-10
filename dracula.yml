@@ -15,8 +15,10 @@ palette:
   pink: "#ff79c6"
   purple: "#bd93f9"
   cyan: "#8BE9FD"
+  executable: "#23D18B"
   white: "#ABB2BF"
   black: "#1E1E1E"
+  blue: "#5e81ac"
   line_grey: "#6272A4"
   gutter_fg_grey: "#4B5263"
   cursor_grey: "#2C323C"
@@ -28,7 +30,8 @@ palette:
   warning_orange: "#ff8800"
   info_yellow: "#FFCC66"
   vivid_blue: "#4FC1FF"
-
+  git_green: "#81B88B"
+  symlink: "#29B8D8"
 highlights:
   Normal: "fg bg"
 
@@ -295,7 +298,20 @@ highlights:
   LspDiagnosticsVirtualTextInformation: "info_yellow"
   LspDiagnosticsVirtualTextHint: "vivid_blue"
 
-
+  NvimTreeImageFile: "purple"
+  NvimTreeGitDirty: "git_green"
+  NvimTreeGitDeleted: "git_green"
+  NvimTreeGitStaged: "git_green"
+  NvimTreeGitMerge: "git_green"
+  NvimTreeGitRenamed: "git_green"
+  NvimTreeGitNew: "git_green"
+  NvimTreeIndentMarker: "line_grey"
+  NvimTreeSymlink: "symlink"
+  NvimTreeFolderIcon: "blue"
+  NvimTreeRootFolder: "fg - b"
+  NvimTreeExecFile: "executable"
+  NvimTreeSpecialFile: "info_yellow"
+  NvimTreeLspDiagnostics: "warning_orange" 
 
 
 
